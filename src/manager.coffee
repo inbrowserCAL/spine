@@ -87,6 +87,6 @@ class Spine.Stack extends Spine.Controller
     @router?.destroy()
     super
 
+module.exports = Spine.Manager if module? && module.exports
+module.exports.Stack = Spine.Stack if module? && module.exports
 
-module?.exports       = Spine.Manager
-module?.exports.Stack = Spine.Stack

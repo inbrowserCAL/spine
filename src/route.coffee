@@ -193,4 +193,4 @@ Spine.Controller.include
 
 Route.Path      = Path
 Spine.Route     = Route
-module?.exports = Route
+module.exports = Route if module? && module.exports

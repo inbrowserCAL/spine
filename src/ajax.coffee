@@ -290,4 +290,4 @@ Ajax.Base       = Base
 Ajax.Singleton  = Singleton
 Ajax.Collection = Collection
 Spine.Ajax      = Ajax
-module?.exports = Ajax
+module.exports = Ajax if module? && module.exports

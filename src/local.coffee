@@ -21,4 +21,5 @@ Spine.Model.Local =
     result = localStorage[@className]
     @refresh(result or [], options)
 
-module?.exports = Spine.Model.Local
+module.exports = Spine.Model.Local if module? && module.exports
+

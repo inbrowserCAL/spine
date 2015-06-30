@@ -44,4 +44,5 @@ class Spine.List extends Spine.Controller
     @trigger('change', item)
     true
 
-module?.exports = Spine.List
+module.exports = Spine.List if module? && module.exports
+
