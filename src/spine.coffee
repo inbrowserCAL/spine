@@ -619,7 +619,7 @@ makeArray = (args) ->
 # Globals
 
 Spine = @Spine   = {}
-module?.exports  = Spine
+module.exports = Spine if module? && module.exports
 
 Spine.version    = '1.5.0'
 Spine.$          = $
